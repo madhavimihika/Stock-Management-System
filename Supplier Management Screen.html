@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="Supplier Management Screen Css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+       <nav class="navbar">
+        <div class="logo">
+            <h1>IMART Supplier Management</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="stock management scree.html">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+    <div class="sidebar">
+        <h2>Stock</h2>
+        <ul>
+			
+            <li><a href="admin dashbaord.html"><i class="fa fa-home"></i> Dashboard</a></li>
+            <li><a href="Stock management screen.html" class="active"><i class="fas fa-warehouse"></i> Manage Stock</a></li>
+            <li><a href="Employee Management Screen.html"><i class="fas fa-user-cog"></i> Manage Employees</a></li>
+            <li><a href="Supplier Management Sreen.html"><i class="fas fa-truck"></i><b> Manage Suppliers</b></a></li>
+            <li><a href="#reports"><i class="fas fa-chart-line"></i> Reports</a></li>
+            <li><a href="#settings"><i class="fas fa-cogs"></i> Settings</a></li>
+            <li><a href="#logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Stock Management</h1>
+            <div class="header-right">
+                <button class="btn-add"><i class="fas fa-plus"></i> Add Item</button>
+            </div>
+        </header>
+
+        <!-- Stock Table -->
+		<div class="cards">
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="view" ><img src="Supplier view icon.jpg" height="100px" width="100px"><a href="#view"><p>View</p></a><h3>
+				</div>
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="Add"><img src="Supplier add icon.jpg" height="100px" width="100px"><a href=""><p>Add</p></a><h3>
+				</div>
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="update"><img src="Supplier update icon.png" height="100px" width="100px"><a href=""><p>Update</p></a><h3>
+				</div>
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="delete"><img src="Supplier remove icon.png" height="100px" width="100px"><a href=""><p>Delete</p></a><h3>
+				</div>
+			
+		</div>
+        
+		<footer>
+        <p>&copy; 2024 IMART Stock Management</p>
+        <p><a href="/contact" >Contact Us</a> | <a href="/privacy">Privacy Policy</a></p>
+    </footer>
+    </div>
+	
+</body>
+
+</html>

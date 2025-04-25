@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Management</title>
+    <link rel="stylesheet" href="stock management screen CSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+       <nav class="navbar">
+        <div class="logo">
+            <h1>IMART Stock Management</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="stock management scree.html">Home</a></li>
+            <li><a href="_self">Update Stock</a></li>
+            <li><a href="#">View Stock</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+    <div class="sidebar">
+        <h2>Stock</h2>
+        <ul>
+			
+            <li><a href="admin dashbaord.html"><i class="fa fa-home"></i> Dashboard</a></li>
+            <li><a href="Stock management screen.html" class="active"><i class="fas fa-warehouse"></i><b> Manage Stock</b></a></li>
+            <li><a href="Employee Management Screen.html"><i class="fas fa-user-cog"></i> Manage Employees</a></li>
+            <li><a href="#manage-suppliers"><i class="fas fa-truck"></i> Manage Suppliers</a></li>
+            <li><a href="#reports"><i class="fas fa-chart-line"></i> Reports</a></li>
+            <li><a href="#settings"><i class="fas fa-cogs"></i> Settings</a></li>
+            <li><a href="#logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1>Stock Management</h1>
+            <div class="header-right">
+                <button class="btn-add"><i class="fas fa-plus"></i> Add Item</button>
+            </div>
+        </header>
+
+        <!-- Stock Table -->
+		<div class="cards">
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="view" ><img src="view icon.png" height="100px" width="100px"><a href="Stock View.html"><p>View</p></a><h3>
+				</div>
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="Add"><img src="add icon.png" height="100px" width="100px"><a href="Add stock window.html"><p>Add</p></a><h3>
+				</div>
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="update"><img src="update icon.png" height="100px" width="100px"><a href="update stock.html"><p>Update</p></a><h3>
+				</div>
+				<div class="card" style="text-align:center">
+					<h3><button style="margin:20px" type="delete"><img src="delete.png" height="100px" width="100px"><a href="Delete stock.html"><p>Delete</p></a><h3>
+				</div>
+			
+		</div>
+        <section id="stock-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item ID</th>
+                        <th>Item Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Product A</td>
+                        <td>50</td>
+                        <td>10.00</td>
+                        <td>
+                            <button class="btn-edit" type="edit"><i class="fas fa-edit"></i> Edit</button>
+                            <button class="btn-delete" type="delete"><i class="fas fa-trash"></i> Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Product B</td>
+                        <td>20</td>
+                        <td>15.00</td>
+                        <td>
+                            <button class="btn-edit"><i class="fas fa-edit"></i> Edit</button>
+                            <button class="btn-delete"><i class="fas fa-trash"></i> Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Add more -->
+                </tbody>
+            </table>
+        </section>
+		<footer>
+        <p>&copy; 2024 IMART Stock Management</p>
+        <p><a href="/contact" >Contact Us</a> | <a href="/privacy">Privacy Policy</a></p>
+    </footer>
+    </div>
+	
+</body>
+
+</html>

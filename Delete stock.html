@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Stock - IMART Stock Management</title>
+    <link rel="stylesheet" href="Delete stock.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>IMART Stock Management</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="stock management scree.html">Home</a></li>
+            <li><a href="update stock.html">Update Stock</a></li>
+            <li><a href="#">View Stock</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Delete Stock</h2>
+        <ul>
+            <li><a href="stock management screen.html"><i class="fa fa-home"></i> Dashboard</a></li>
+            <li><a href="add stock window.html"><i class="fa fa-plus"></i> Add Stock</a></li>
+			<li><a href="update stock.html"><i class="fa fa-plus"></i>Update Stock</a></li>
+			<li><a href="Delete stock.html"><i class="fa fa-plus"></i><b> Delete Stock</b></a></li>
+            <li><a href="#"><i class="fa fa-list"></i> View Stock</a></li>
+            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- Form Container -->
+    <div class="login-container">
+        <h1>Delete Stock</h1>
+
+        <form action="" method="post">
+            <label for="item-code">Item Code</label>
+            <input type="text" id="item code" name="item code" required><br>
+			 <button type="checked">Check</button>
+
+            <label for="item">Item</label>
+            <input type="text" id="item" name="item" required>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <button type="Submit">Delete</button>
+			<br><br>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+
+</body>
+</html>

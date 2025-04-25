@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Stock - IMART Stock Management</title>
+    <link rel="stylesheet" href="add Stock.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>IMART Stock Management</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="stock management scree.html">Home</a></li>
+            <li><a href="_self">Add Stock</a></li>
+            <li><a href="#">View Stock</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Add Stock</h2>
+        <ul>
+            <li><a href="stock management screen.html"><i class="fa fa-home"></i> Dashboard</a></li>
+            <li><a href="add stock window.html"><i class="fa fa-plus"></i><B>Add Stock</b></a></li>
+            <li><a href="update stock.html"><i class="fa fa-plus"></i>Update Stock</a></li>
+			<li><a href="Delete stock.html"><i class="fa fa-plus"></i> Delete Stock</a></li>
+			<li><a href="#"><i class="fa fa-list"></i> View Stock</a></li>
+            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- Form Container -->
+    <div class="login-container">
+        <h1>Add Stock</h1>
+
+        <form action="" method="post">
+            <label for="item">Item</label>
+            <input type="text" id="item" name="item" required>
+
+            <label for="item-code">Item Code</label>
+            <input type="text" id="item-code" name="item-code" required>
+
+            <label for="bulk-price">Bulk Price</label>
+            <input type="text" id="bulk-price" name="bulk-price" required>
+
+            <label for="unit-price">Unit Price</label>
+            <input type="number" id="unit-price" name="unit-price" required>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <label for="supplier-id">Supplier ID</label>
+            <input type="text" id="supplier-id" name="supplier-id" required>
+			<center>
+            <button type="submit">Add</button>
+			<br><br>
+            <button type="reset">Clear</button>
+			</center>
+        </form>
+    </div>
+
+</body>
+</html>
